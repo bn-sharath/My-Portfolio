@@ -1,22 +1,35 @@
+import { useState } from "react";
 import "./header.css";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const OnclickToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
       <header className="header ">
         <nav className="nav container">
-          {/* <div className="menu-icon">
-            <div className="nav-close">
-              <box-icon name="x"></box-icon>
+          <div className="menu-icon">
+            <div
+              className={isOpen ? "show" : "hidden"}
+              onClick={OnclickToggle}
+            >
+              <box-icon name="x" size='lg'></box-icon>
             </div>
-            <div className="nav-toggle">
-              <box-icon name="menu"></box-icon>
+            <div
+              className={!isOpen ? "show" : "hidden"}
+              onClick={OnclickToggle}
+            >
+              <box-icon name="menu" size='lg'></box-icon>
             </div>
-          </div> */}
+          </div>
 
           <div className="nav-title"> Sharath</div>
-          
-          <div className="nav-menu">
+
+          <div className={isOpen ? "nav-menu" : "hidden nav-menu"}>
             <ul>
               <li className="menu">
                 <a href="#">

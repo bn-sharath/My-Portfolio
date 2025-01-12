@@ -12,7 +12,7 @@
 /* font size */
 --nav-font-size: 1.5rem;
 --title-font-size: 3rem;
---subtitle-font-size: 2rem;
+--subtitle-font-size: 1.5rem;
 --normal-font-size: 1.2rem;
 --botton-font-size: 1rem;
 
@@ -25,14 +25,13 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --botton-color-dark: hsl(var(--hue), var(--sat), 20%);
+  --botton-color-dark-hover: hsl(var(--hue), var(--sat), 10%);
   --text-color: hsl(var(--hue), var(--sat), 0%);
   --text-lit-color:hsl(var(--hue), var(--sat), 45%);
   --body-color: hsl(var(--hue), var(--sat), 80%);
   --container-color: #fff;
-  
-  
-  --title-color: #fa4b06;
+  --title-color: #6F00FF;
 }
 
 
@@ -74,6 +73,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  background-color: transparent;
 }
 
 img {

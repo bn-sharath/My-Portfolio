@@ -31,11 +31,14 @@
     font-size: var(--nav-font-size);
     cursor: pointer;
     transition: all 0.3s;
+    font-weight: var(--font-bold);
+    font-family: cursive;
+    color: var(--title-color);
     /* color: var(--title-color); */
 }
 
 .nav-title:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
 .nav-menu>ul {
@@ -77,6 +80,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
     .header {
         top: initial;
         bottom: 0;
@@ -84,6 +88,7 @@
 
     .menu-icon {
         display: block;
+        transition: all 0.4s;
         /* order:1; */
     }
 
@@ -100,6 +105,14 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
 
+    }
+
+    /* For menu toggle  */
+    .hidden {
+        display: none;
+    }
+    .show{
+        display: block;
     }
 }
 
