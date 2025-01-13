@@ -13,17 +13,14 @@ export default function Header() {
       <header className="header ">
         <nav className="nav container">
           <div className="menu-icon">
-            <div
-              className={isOpen ? "show" : "hidden"}
-              onClick={OnclickToggle}
-            >
-              <box-icon name="x" size='lg'></box-icon>
+            <div className={isOpen ? "show" : "hidden"} onClick={OnclickToggle}>
+              <box-icon name="x" size="lg"></box-icon>
             </div>
             <div
               className={!isOpen ? "show" : "hidden"}
               onClick={OnclickToggle}
             >
-              <box-icon name="menu" size='lg'></box-icon>
+              <box-icon name="menu" size="lg"></box-icon>
             </div>
           </div>
 
@@ -45,27 +42,26 @@ export default function Header() {
                   <box-icon name="user-circle"></box-icon>
                 </a>
               </li>
-              <li className="menu">
+                <li className="menu">
                 <a href="#">
-                  <div className="menu-title">Experience</div>
-
-                  <box-icon name="briefcase"></box-icon>
-                </a>
-              </li>
-              <li className="menu">
-                <a href="#">
-                  <div className="menu-title">Education</div>
+                  <div className="menu-title">Qualification</div>
 
                   <box-icon name="book"></box-icon>
                 </a>
               </li>
               <li className="menu">
                 <a href="#">
-                  <div className="menu-title">Works</div>
-
+                  <div className="menu-title">Skills</div>
                   <box-icon name="code-alt"></box-icon>
                 </a>
               </li>
+              <li className="menu">
+                <a href="#">
+                  <div className="menu-title">Works</div>
+                  <box-icon name="briefcase"></box-icon>
+                </a>
+              </li>
+            
               <li className="menu">
                 <a href="#">
                   <div className="menu-title">Contact</div>

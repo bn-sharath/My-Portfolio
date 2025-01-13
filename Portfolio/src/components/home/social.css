@@ -6,7 +6,7 @@
     row-gap: 2rem;
     height: 100%;
     padding: 1rem;
-    margin: 1rem 0;
+    
 }
 
 .social-container > a{
@@ -16,14 +16,15 @@
     text-align: center;
     border-radius: 5px;
 
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
 }
 
 /* Media query for responsive */
 @media screen and (max-width: 992px) {
   
     .social-container{
-        transform: scale(1);
+        /* transform: scale(1); */
+        padding: 0.75rem;
     }
     
 }
