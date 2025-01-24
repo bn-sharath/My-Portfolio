@@ -1,0 +1,59 @@
+.q-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.q-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: var(--font-medium);
+    padding: 1rem;
+    font-size: var(--subtitle-font-size);
+    column-gap: 0.5rem;
+}
+
+
+
+.edu-container>div,
+.exp-container>div {
+    padding: 0.5rem 0;
+}
+
+.edu-year,
+.edu-score,
+.exp-from,
+.exp-jd {
+    font-style: italic;
+    font-size: var(--small-font-size);
+    /* text-align: right; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edu-year::before,
+.edu-score::before,
+.exp-from::before,
+.exp-jd ::before {
+    content: "";
+    width: 60%;
+    height: 2px;
+    /* border: 2px solid black; */
+
+    background-color: rgba(89, 89, 89, 0.726);
+}
+
+
+/* Media query for responsive */
+@media screen and (max-width: 992px) {
+    .q-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 350px) {}

@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <>
       <header className="header ">
-        <nav className="nav container">
+        <nav className="nav">
           <div className="menu-icon">
             <div className={isOpen ? "show" : "hidden"} onClick={OnclickToggle}>
               <box-icon name="x" size="lg"></box-icon>

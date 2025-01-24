@@ -6,7 +6,10 @@
 
 }
 .download-container{
-    /* margin-top: 2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
     padding: 1rem;
 }
 /* .content-container>div {
@@ -14,20 +17,25 @@
 } */
 
 .content-container {
-    /* padding: 1rem 2rem; */
-    margin: 1rem;
-
+    /* padding: 1rem; */
+    
 }
 
 
 
 .description {
     font-style: italic;
-    text-align: left;
+    text-align: justify;
     font-size: var(--normal-font-size);
     padding-left: 4rem;
     /* margin-left: 4rem; */
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
+    
+}
 
+@media screen and (max-width: 550px) {
+    .description{
+        padding-left: 0;
+    }
 }

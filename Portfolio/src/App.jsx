@@ -2,7 +2,7 @@
 import "./app.css";
 import Header from "./components/header/Header.jsx";
 import Home from "./components/home/Home.jsx";
-import Line from "./components/line/Line.jsx";
+// import Line from "./components/line/Line.jsx";
 import About from "./components/about/About.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Footer from "./components/footer/Footer.jsx";
@@ -16,18 +16,18 @@ function App() {
       <Header />
       <main className="main">
         <Home />
-        <Line />
+        {/* <Line /> */}
         <About />
-        <Line />
+        {/* <Line /> */}
         <Qualification />
-        <Line />
+        {/* <Line /> */}
         <Skills />
-        <Line />
+        {/* <Line /> */}
         <Works />
-        <Line />
+        {/* <Line /> */}
         <Contact />
-        <Footer />
       </main>
+        <Footer />
     </>
   );
 }
