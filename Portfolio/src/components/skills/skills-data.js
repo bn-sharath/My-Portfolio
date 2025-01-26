@@ -4,10 +4,10 @@ export const skills = {
     "CSS",
     "JavaScript",
     "React Js",
-    "Next JS",
+    "Next Js",
     "Responsive design",
   ],
-  backend: ["Node Js", "Express JS", "Python", "Rest API"],
+  backend: ["Node Js", "Express Js", "Python", "Rest API"],
   database: ["SQL", "NoSQL", "MongoDB", "MySQL"],
   others: ["Git", "GitHub", "Docker", "Azure cloud"],
 };

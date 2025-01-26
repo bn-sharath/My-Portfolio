@@ -1,8 +1,32 @@
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.contact-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    font-weight: var(--font-medium);
+    gap: 0.5rem;
+}
+.contact-box:hover{
+    background-color: var(--title-color);
+    /* animation from bottom to top bg color */
+}
 
 
 
 
 /* Media query for responsive */
 @media screen and (max-width: 992px) {}
-@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media screen and (max-width: 350px) {}

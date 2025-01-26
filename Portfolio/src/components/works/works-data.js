@@ -1,6 +1,7 @@
 export const projects = [
   {
-    title: "CONNECT TALK | A Web Real Time chatting application.",
+    title: "CONNECT TALK",
+    sub_title:"A Web Real Time chatting application.",
     description:
       "The Connect Talk App is a Web based, real-time chatting application designed to provide secure and private communication for users",
     usedTech:
@@ -9,7 +10,8 @@ export const projects = [
   },
   {
     title:
-      "SARVANTHARAYAMI | Web based CCTV security system using face recognition with python.",
+      "SARVANTHARAYAMI",
+      sub_title:" Web based CCTV security system using face recognition with python.",
     description:
       " This project is to recognize face from the CCTV camera and compare this face with the criminal or missing persons face in database and give the security alerts",
     usedTech:

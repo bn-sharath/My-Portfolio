@@ -5,7 +5,7 @@ import info from "./info.js";
 export default function About() {
   return (
     <>
-      <h1 className="all-title">About Me</h1>
+      <h1 className="all-title"> About Me </h1>
       
       <div className="about-container">
         <div className="about-img-container">
