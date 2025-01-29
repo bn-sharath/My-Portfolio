@@ -1,15 +1,18 @@
 .footer-container {
     padding: 1rem;
     text-align: center;
-    background: gray;
+    /* background: linear-gradient(to top, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply; */
     color: var(--text-color);
+
+    background-image: linear-gradient(to top, #a3bded62 0%, #6992c76f 100%);
 }
 
 .footer-title {
     font-size: var(--title-font-size);
     font-weight: var(--font-bold);
     margin: 1rem;
-    color: white;
+    
 }
 
 .icon-container {

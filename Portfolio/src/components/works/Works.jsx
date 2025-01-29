@@ -3,6 +3,8 @@ import "./works.css";
 export default function Works() {
   return (
     <>
+    <section id="works">
+
       <div className="all-title">My Projects</div>
       <div className="project-container">
         {projects.map((project) => {
@@ -28,6 +30,8 @@ export default function Works() {
           );
         })}
       </div>
+    </section>
+
     </>
   );
 }

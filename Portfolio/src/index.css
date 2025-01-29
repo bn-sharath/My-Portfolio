@@ -4,85 +4,86 @@
 /* CSS Variables  */
 
 
-:root{
+:root {
 
-/* Font style */
---font-style:  "Roboto", serif;
+	/* Font style */
+	--font-style: "Roboto", serif;
 
-/* font size */
---nav-font-size: 1.5rem;
---title-font-size: 2.5rem;
---heading-font-size: 3rem;
---subtitle-font-size: 2rem;
---normal-font-size: 1.5rem;
---small-font-size: 1.2rem;
---botton-font-size: 1rem;
+	/* font size */
+	/* --nav-font-size: 1.3rem; */
+	--title-font-size: 2.5rem;
+	--heading-font-size: 3rem;
+	--subtitle-font-size: 2rem;
+	--normal-font-size: 1.5rem;
+	--small-font-size: 1.2rem;
+	--botton-font-size: 1rem;
 
-/* font weights */
---font-normal: 400;
---font-medium: 500;
---font-bold: 700;
+	/* font weights */
+	--font-normal: 400;
+	--font-medium: 500;
+	--font-bold: 700;
 
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 0;
-  --sat: 0%;
-  --botton-color-dark: hsl(var(--hue), var(--sat), 20%);
-  --botton-color-dark-hover: hsl(var(--hue), var(--sat), 10%);
-  --text-color: hsl(var(--hue), var(--sat), 0%);
-  --text-lit-color:hsl(var(--hue), var(--sat), 45%);
-  --body-color: hsl(var(--hue), var(--sat), 80%);
+	/*========== Colors ==========*/
+	/*Color mode HSL(hue, saturation, lightness)*/
+	--hue: 0;
+	--sat: 0%;
+	--botton-color-dark: hsl(var(--hue), var(--sat), 20%);
+	--botton-color-dark-hover: hsl(var(--hue), var(--sat), 10%);
+	--text-color: hsl(var(--hue), var(--sat), 0%);
+	--text-lit-color: hsl(var(--hue), var(--sat), 45%);
+	--body-color: hsl(var(--hue), var(--sat), 80%);
 
-  --body-color1:blue;
-  --container-color: #fff;
-  --title-color: #6F00FF;
+	--body-color1: blue;
+	--container-color: #fff;
+	--title-color: #6F00FF;
+
 }
 
 
 
 /* general css declaration */
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body,
 button,
 input,
 textarea {
-  font-family: var(--font-style);
-  font-size: var(--normal-font-size);
+	font-family: var(--font-style);
+	font-size: var(--normal-font-size);
 }
 
 body {
-  background-color: var(--body-color); 
-  color: var(--text-color);
+	background-color: var(--body-color);
+	color: var(--text-color);
 }
 
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 button {
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background-color: transparent;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background-color: transparent;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 
@@ -90,16 +91,188 @@ img {
 
 /* Media query for responsive */
 @media screen and (max-width: 992px) {}
+
 @media screen and (max-width: 768px) {}
+
 @media screen and (max-width: 550px) {
-  :root{
-    /* font size */
---nav-font-size: 1rem;
---title-font-size: 2rem;
---heading-font-size: 3rem;
---subtitle-font-size: 1.5rem;
---normal-font-size: 1rem;
---small-font-size: 1rem;
---botton-font-size: 1rem;
-  }
+	:root {
+		/* font size */
+		--nav-font-size: 1rem;
+		--title-font-size: 2rem;
+		--heading-font-size: 3rem;
+		--subtitle-font-size: 1.5rem;
+		--normal-font-size: 1rem;
+		--small-font-size: 1rem;
+		--botton-font-size: 1rem;
+	}
+}
+
+/* Animation keyframes */
+
+@keyframes rotate-left {
+	0% {
+		transform: rotate(360deg);
+	}
+
+	100% {
+		transform: rotate(0);
+	}
+}
+@keyframes rotate-right {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes title-move {
+
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
+
+@keyframes page-scroll {
+
+
+	0% {
+		opacity: 1;
+		transform: rotateX(0deg);
+		transform-origin: top;
+	}
+
+	100% {
+		opacity: 0;
+		transform: rotateX(100deg);
+		transform-origin: top;
+	} 
+}
+
+@keyframes from-top {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+		transform: scale(0);
+		transform-origin: 50% 0%;
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+		transform: scale(1);
+		transform-origin: 50% 0%;
+	}
+}
+
+@keyframes right-to-left {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(32px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+
+@keyframes left-to-right {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(-68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
 }

@@ -5,17 +5,18 @@ import "./home.css";
 export default function Home() {
   return (
     <>
-      <section className="home">
+      <section id="home">
         <div className="title-conatiner">
-          <div className="title">Sharath BN</div>
-          <div className="subtitle">Software developer</div>
+          <div className="title">Hello! 👋, I'm Sharath BN</div>
+          {/* <div className="subtitle">Software developer</div> */}
         </div>
         <div className="home-container">
           <div className="home-img-container">
             <div className="home-img"> </div>
           </div>
           <Content />
-            {/* <Social /> */}
+          
+            <Social />
         </div>
       </section>
     </>

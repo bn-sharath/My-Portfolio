@@ -2,6 +2,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+
+    /* animation-name: shutter-in-bottom;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none; */
 }
 
 .contact-box {
@@ -11,10 +19,16 @@
     text-align: center;
     font-weight: var(--font-medium);
     gap: 0.5rem;
+    transition: all 0.6s;
+    background-color: transparent;
+    
+    border: 1px solid grey;
 }
-.contact-box:hover{
-    background-color: var(--title-color);
+
+.contact-box:hover {
+    background-color: white;
     /* animation from bottom to top bg color */
+    
 }
 
 

@@ -5,6 +5,8 @@ import info from "./info.js";
 export default function About() {
   return (
     <>
+    <section id="about">
+
       <h1 className="all-title"> About Me </h1>
       
       <div className="about-container">
@@ -16,6 +18,8 @@ export default function About() {
           {info.introduction}
         </div>
       </div>
+    </section>
+
     </>
   );
 }

@@ -8,30 +8,31 @@
 .download-container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 1rem;
-    padding: 1rem;
+    justify-content: start;
+    /* margin: 1rem; */
+    /* padding: 2rem 1rem; */
+    /* border: 2px solid red; */
 }
 /* .content-container>div {
-    border: 2px solid red;
-} */
-
-.content-container {
-    /* padding: 1rem; */
+    } */
     
-}
-
-
-
-.description {
-    font-style: italic;
-    text-align: justify;
-    font-size: var(--normal-font-size);
-    padding-left: 4rem;
+    .content-container p{
+        padding: 1rem;
+        
+    }
+    
+    
+    
+    .description {
+        font-style: italic;
+        text-align: justify;
+        font-size: var(--normal-font-size);
+    /* padding-left: 4rem; */
     /* margin-left: 4rem; */
     margin-top: 2rem;
     margin-bottom: 2rem;
     
+    /* border: 2px solid red; */
 }
 
 @media screen and (max-width: 550px) {

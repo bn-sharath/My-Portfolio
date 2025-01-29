@@ -24,48 +24,44 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="nav-title"> Sharath</div>
+          <div className="nav-title"> {'{< BNS />}'} </div>
 
           <div className={isOpen ? "nav-menu" : "hidden nav-menu"}>
             <ul>
               <li className="menu">
-                <a href="#">
+                <a href="#home">
                   <div className="menu-title">Home</div>
-
-                  <box-icon name="home-smile"></box-icon>
+                  <box-icon name="home-smile" ></box-icon>
                 </a>
               </li>
-              <li className="menu">
-                <a href="#">
+              {/* <li className="menu">
+                <a href="#about">
                   <div className="menu-title">About</div>
-
                   <box-icon name="user-circle"></box-icon>
                 </a>
-              </li>
-                <li className="menu">
-                <a href="#">
+              </li> */}
+              <li className="menu">
+                <a href="#qualification">
                   <div className="menu-title">Qualification</div>
-
                   <box-icon name="book"></box-icon>
                 </a>
               </li>
               <li className="menu">
-                <a href="#">
+                <a href="#skills">
                   <div className="menu-title">Skills</div>
                   <box-icon name="code-alt"></box-icon>
                 </a>
               </li>
               <li className="menu">
-                <a href="#">
+                <a href="#works">
                   <div className="menu-title">Works</div>
                   <box-icon name="briefcase"></box-icon>
                 </a>
               </li>
-            
-              <li className="menu">
-                <a href="#">
-                  <div className="menu-title">Contact</div>
 
+              <li className="menu">
+                <a href="#contact">
+                  <div className="menu-title">Contact</div>
                   <box-icon name="paper-plane"></box-icon>
                 </a>
               </li>

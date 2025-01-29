@@ -5,6 +5,8 @@ import "./qualification.css";
 export default function Qualification() {
   return (
     <>
+    <section id="qualification">
+
       <h1 className="all-title">Qualification</h1>
 
       <div className="q-container">
@@ -30,6 +32,8 @@ export default function Qualification() {
           <div className="exp-jd">{experience.jd}</div>
         </div>
       </div>
+    </section>
+
     </>
   );
 }

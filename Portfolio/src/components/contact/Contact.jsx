@@ -3,6 +3,8 @@ import "./contact.css";
 export default function Contact() {
   return (
     <>
+    <section id="contact">
+
       <div className="all-title">Contact Me</div>
       <div className="contact-container">
         <div className="container contact-box">
@@ -18,6 +20,8 @@ export default function Contact() {
           <span>Sharathbn2001@gmail.com</span>
         </div>
       </div>
+    </section>
+
     </>
   );
 }

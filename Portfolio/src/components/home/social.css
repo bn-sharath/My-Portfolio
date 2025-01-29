@@ -2,14 +2,16 @@
     display: flex;
     /* flex-direction: column; */
     align-items: center;
-    justify-content: space-evenly;
-    margin: 2rem;
+    justify-content: center ;
+    column-gap: 2rem;
+    width: 100%; 
+    /* border: 2px solid red;    */
     }
   
   .social-container > a{
-    
+    /* display: inline-block; */
     background-color: var(--container-color);
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     border-radius: 5px;
     
