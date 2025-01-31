@@ -21,10 +21,10 @@ export default function Footer() {
         </div>
         <div className="nav-container">
           <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#qualification">Qualification</a>
-          <a href="#skills">Skills</a>
           <a href="#works">Works</a>
+          <a href="#skills">Skills</a>
+          <a href="#qualification">Qualification</a>
+          <a href="#education">Education</a>
           <a href="#contact">Contact</a>
         </div>
         <div className="copyright">©2025 copyright. Designed by Sharath</div>

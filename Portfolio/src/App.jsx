@@ -1,8 +1,6 @@
 import "./app.css";
 import Header from "./components/header/Header.jsx";
 import Home from "./components/home/Home.jsx";
-// import Line from "./components/line/Line.jsx";
-
 import Contact from "./components/contact/Contact.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import Skills from "./components/skills/skills.jsx";
@@ -18,13 +16,10 @@ function App() {
       <Header />
       <main className="main">
         <Home />
-
         <Works />
         <Skills />
-
         <Experience />
         <Qualification />
-
         <Contact />
       </main>
       <Footer />

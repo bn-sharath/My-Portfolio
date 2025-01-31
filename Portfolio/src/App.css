@@ -1,24 +1,20 @@
 .container {
     padding: 1rem 2rem;
     margin: 1rem;
-
-    /* background: var(--container-color); */
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: var(--container-color);
     border: 1px solid rgba(209, 213, 219, 0.3);
-
     -webkit-box-shadow: 4px 4px 16px 0px rgba(147, 147, 147, 0.778);
     -moz-box-shadow: 4px 4px 16px 0px rgba(147, 147, 147, 0.778);
     box-shadow: 4px 4px 16px 0px rgba(147, 147, 147, 0.778);
 
-    /* border-radius: 12px; */
+    border: 1px solid grey;
+
 }
 
 .button {
     padding: 1rem 2rem;
-    /* background-color: var(--botton-color-dark); */
-
     color: var(--container-color);
     border-radius: 5px;
     transition: all 0.2s;
@@ -31,10 +27,7 @@
 }
 
 .main {
-    /* margin: 1rem; */
     padding: 1rem;
-
-
 }
 
 .all-title {
@@ -55,14 +48,12 @@
     content: "";
     width: 100%;
     height: 2px;
-    /* background-color: rgba(89, 89, 89, 0.726); */
     border: 2px solid black;
 }
 
 
 .subtitle {
     text-align: center;
-    /* font-style: italic; */
     font-weight: var(--font-medium);
     font-size: var(--subtitle-font-size);
     position: relative;
@@ -71,8 +62,6 @@
     align-items: center;
     justify-content: center;
     column-gap: 0.3rem;
-    /* margin-left: 4rem;
-    padding-left: 4rem; */
     opacity: 0;
     animation: open 2s ease 2s 1 normal forwards;
     z-index: 10;
@@ -84,25 +73,16 @@
     width: 50px;
     height: 2px;
     border: 2px solid rgb(7, 7, 7);
-    /* background-color: rgb(0, 0, 0); */
     top: 0;
     left: 0;
-    /* position: absolute; */
-
 }
 
 section {
-    /* margin-top: 5rem; */
     position: relative;
     padding-top: 6rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    /* animation: page-scroll linear forwards; */
-    /* animation-delay: 2s; */
-    /* animation-timeline: view(); */
-    /* animation-range: exit; */
-
-    }
+}
 
 
 .right-to-left {
@@ -120,15 +100,10 @@ section {
     animation-range: entry;
 }
 
-.scroll{
+.scroll {
     animation: page-scroll both;
     animation-timeline: view(90% 10%);
 }
-
-
-
-
-
 
 /* Media query for responsive */
 @media screen and (max-width: 992px) {}

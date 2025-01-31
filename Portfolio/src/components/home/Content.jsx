@@ -1,14 +1,13 @@
 import "./content.css";
 import resume from "../../assets/Sharath.pdf";
 import info from "./info";
-// import Social from "./Social";
 
 export default function Content() {
   return (
     <>
       <div className="content-container">
         <div className="description">
-          <p >
+          <p>
             over 2 years of extensive experience in designing, coding, and
             implementing scalable applications using
             <span className="bold"> React JS </span>
@@ -45,7 +44,6 @@ export default function Content() {
           </a>
         </div>
       </div>
-      {/* <Social /> */}
     </>
   );
 }

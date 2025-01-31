@@ -1,30 +1,20 @@
 .title {
     text-align: center;
-
     font-size: var(--heading-font-size);
     font-weight: var(--font-bold);
-
-
-    /* border: 1px solid black; */
     padding: 1rem;
-    /* color: var(--title-color); */
     font-family: cursive;
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .title>span {
-    /* border-right: 3px solid black; */
-    /* padding: 0 0.3rem; */
     width: 0;
     overflow: hidden;
     white-space: nowrap;
 
     animation: typing 5s steps(50) 2.5s alternate forwards infinite;
-    /* width: max-content; */
 }
 
 .hi {
@@ -32,30 +22,22 @@
     animation: title-move 2s linear infinite;
 }
 
-
 .home-container {
-    /* margin-bottom: 2rem; */
     padding: 0 2rem;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    /* gap: 2rem 4rem; */
     column-gap: 4rem;
     place-items: center;
-
 }
 
 .home-img-container {
     display: grid;
     grid-template-columns: 1fr 3fr;
     place-items: center;
-    /* align-items: center; */
-    /* justify-items: center; */
     gap: 1rem;
     z-index: 1;
     opacity: 0;
     animation: left-to-right 1.5s 3s linear alternate forwards;
-    /* animation: left-to-right 1.5s linear 1s forwards; */
-
 }
 
 .home-img::before {
@@ -65,11 +47,8 @@
     position: absolute;
     top: 0;
     background: whitesmoke;
-    /* rotate: 45deg; */
     z-index: -10;
-    /* filter: blur(10px); */
     border: 1px solid gray;
-    /* backdrop-filter: blur(2px); */
 
     animation: rotate-left 10s ease-in infinite;
 
@@ -82,11 +61,8 @@
     position: absolute;
     top: 0;
     background: whitesmoke;
-    /* rotate: -45deg; */
     z-index: -10;
-    /* filter: blur(10px); */
     border: 1px solid gray;
-    /* backdrop-filter: blur(8.2px); */
 
     animation: rotate-right 10s ease-out infinite;
 
@@ -94,7 +70,6 @@
 
 
 .home-img {
-    /* padding: 1rem; */
     margin: 1rem;
     background-image: url("../../assets/profile.jpg");
     background-repeat: no-repeat;
@@ -102,27 +77,16 @@
     width: 300px;
     height: 300px;
     background-position: end;
-    /* z-index: 1000; */
     border: 2px solid rgba(109, 109, 109, 0.674);
-
-
     position: relative;
-
-
-    /* box-shadow: 5px 10px 10px 5px rgb(176, 176, 176); */
-
-    /* animation: profile-animation infinite ease-in-out 3s; */
 }
 
 
 /* Media query for responsive */
 @media screen and (max-width: 992px) {
-
-
     .home-container {
         display: grid;
         grid-template-columns: 1fr;
-
     }
 
 }
@@ -130,24 +94,21 @@
 @media screen and (max-width: 768px) {
 
     .title {
-        /* border: 1px solid black; */
         padding: 0.5rem;
     }
 
     .title>span {
         animation: typing 3s steps(30) forwards infinite;
-
-
     }
 
-    .home-img-container{
+    .home-img-container {
         margin-top: 2rem;
     }
 
     .home-img,
     .home-img::after,
     .home-img::before {
-        
+
         width: 200px;
         height: 200px;
     }

@@ -1,10 +1,7 @@
 .footer-container {
     padding: 1rem;
     text-align: center;
-    /* background: linear-gradient(to top, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
-    background-blend-mode: multiply, multiply; */
     color: var(--text-color);
-
     background-image: linear-gradient(to top, #a3bded62 0%, #6992c76f 100%);
 }
 
@@ -12,7 +9,6 @@
     font-size: var(--title-font-size);
     font-weight: var(--font-bold);
     margin: 1rem;
-    
 }
 
 .icon-container {
@@ -35,7 +31,6 @@
     text-decoration: none;
     color: black;
     padding: 0.3rem;
-    /* display: inline-block; */
 }
 
 .nav-container>a:hover {
@@ -45,7 +40,6 @@
 .copyright {
     font-style: italic;
     font-size: var(--small-font-size);
-
     padding: 1rem;
 }
 

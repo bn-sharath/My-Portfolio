@@ -1,32 +1,44 @@
-// import html from "../../assets"
-// import CSS from "../../assets"
-// import js from "../../assets"
-// import python from "../../assets"
-// import react from "../../assets"
-// import node from "../../assets"
-// import express from "../../assets"
-// import next from "../../assets"
-// import html from "../../assets"
-// import html from "../../assets"
-// import html from "../../assets"
-// import html from "../../assets"
-// import html from "../../assets"
-
-
+import html from "../../assets/html.svg";
+import css from "../../assets/css.svg";
+import js from "../../assets/js.svg";
+import python from "../../assets/python.svg";
+import react from "../../assets/reactjs.svg";
+import node from "../../assets/nodejs.svg";
+import express from "../../assets/express.svg";
+import next from "../../assets/next-js.svg";
+import responsive from "../../assets/responsive-design.svg";
+import api from "../../assets/rest-api.svg";
+import git from "../../assets/git.svg";
+import flask from "../../assets/flask.svg";
+import github from "../../assets/github.svg";
+import docker from "../../assets/docker.svg";
+import azure from "../../assets/azure.svg";
+import mySQL from "../../assets/mysql.svg";
+import mongoDB from "../../assets/mongodb.svg";
 
 export const skills = {
-
-
   frontend: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React Js",
-    "Next Js",
-    "Responsive design",
+    { name: "HTML", icon: html },
+    { name: "CSS", icon: css },
+    { name: "JavaScript", icon: js },
+    { name: "React Js", icon: react },
+    { name: "Next Js", icon: next },
+    { name: "Responsive design", icon: responsive },
   ],
-  
-  backend: ["Node Js", "Express Js", "Python", "Rest API"],
-  database: ["SQL", "NoSQL", "MongoDB", "MySQL"],
-  others: ["Git", "GitHub", "Docker", "Azure cloud"],
+  backend: [
+    { name: "Node Js", icon: node },
+    { name: "Express Js", icon: express },
+    { name: "Rest API", icon: api },
+    { name: "Python", icon: python },
+    { name: "Flask", icon: flask },
+    { name: "Git", icon: git },
+  ],
+
+  tools: [
+    { name: "GitHub", icon: github },
+    { name: "Docker", icon: docker },
+    { name: "Azure cloud", icon: azure },
+    { name: "MySQL", icon: mySQL },
+    { name: "MongoDB", icon: mongoDB },
+  ],
 };

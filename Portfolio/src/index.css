@@ -10,7 +10,7 @@
 	--font-style: "Roboto", serif;
 
 	/* font size */
-	/* --nav-font-size: 1.3rem; */
+	
 	--title-font-size: 2.5rem;
 	--heading-font-size: 2rem;
 	--subtitle-font-size: 1.5rem;
@@ -37,7 +37,7 @@
 
 
 	--body-color1: linear-gradient(to right, #2F80ED, #56CCF2);
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	--container-color: white;
 	--title-color: #6F00FF;
 
@@ -51,7 +51,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
 }
 
 html {
@@ -132,8 +131,6 @@ img {
 
 @keyframes rotate-left {
 	0% {
-		/* transform: rotate(360deg); */
-
 		transform: scale(0.7) rotate(360deg);
 	}
 
@@ -142,7 +139,6 @@ img {
 	}
 
 	100% {
-		/* transform: rotate(0); */
 		transform: scale(1) rotate(0deg);
 	}
 }
@@ -196,8 +192,6 @@ img {
 }
 
 @keyframes page-scroll {
-
-
 	from {
 		opacity: 0;
 		transform: scale(0.3) translateY(-50px);

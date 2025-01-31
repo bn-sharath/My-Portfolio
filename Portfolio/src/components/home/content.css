@@ -1,7 +1,6 @@
 .content-container {
     opacity: 0;
     animation: right-to-left 1.5s 6s linear forwards;
-
 }
 
 .download-btm {
@@ -17,10 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    /* margin: 1rem; */
-    /* padding: 2rem 1rem; */
-    /* border: 2px solid red; */
-
 }
 
 .bold {
@@ -30,8 +25,6 @@
 .content-container p {
     padding: 1rem;
     background-color: rgba(245, 245, 245, 0.478);
-
-
 }
 
 
@@ -39,13 +32,8 @@
     font-style: italic;
     text-align: right;
     font-size: var(--normal-font-size);
-    /* padding-left: 4rem; */
-    /* margin-left: 4rem; */
     margin-top: 2rem;
     margin-bottom: 2rem;
-
-    /* border: 2px solid rgb(128, 128, 128); */
-    
 }
 
 @media screen and (max-width: 550px) {

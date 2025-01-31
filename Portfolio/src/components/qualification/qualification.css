@@ -3,7 +3,6 @@
     grid-template-columns: 1fr;
     place-items: center;
     padding: 0 1rem;
-
     text-align: center;
 }
 
@@ -21,34 +20,26 @@
     place-items: center;
     gap: 1rem;
     width: fit-content;
-    /* border: 2px solid black; */
 }
 
 .q-title>span {
-
     border-radius: 5px;
     background-color: transparent;
     box-shadow: 4px 4px 16px 0px rgba(147, 147, 147, 0.778);
 }
 
 .q-title img {
-    /* border: 2px solid black; */
     width: 200px;
     height: 100px;
     display: block;
     padding: 1rem;
-
-    /* background: var(); */
-
 }
 
 .edu-college {
-    /* border: 2px solid black; */
     font-weight: var(--font-bold);
     font-size: var(--title-font-size);
     padding: 0 1rem;
     white-space: wrap;
-    /* text-align: center; */
 }
 
 .edu-degree {
@@ -61,13 +52,11 @@
 }
 
 
-
-
 /* Media query for responsive */
 @media screen and (max-width: 992px) {}
 
 @media screen and (max-width: 768px) {
-    .q-title img{
+    .q-title img {
         width: 100px;
         height: 70px;
 

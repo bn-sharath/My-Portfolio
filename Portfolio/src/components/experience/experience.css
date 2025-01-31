@@ -3,7 +3,6 @@
     grid-template-columns: 1fr;
     place-items: center;
     padding: 0 1rem;
-
     text-align: justify;
 }
 
@@ -19,31 +18,24 @@
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
-    /* border: 2px solid black; */
     gap: 1rem;
     width: max-content;
 }
 
 .e-title>span {
-
     border-radius: 50%;
     background-color: transparent;
     box-shadow: 4px 4px 16px 0px rgba(147, 147, 147, 0.778);
 }
 
 .e-title img {
-    /* border: 2px solid black; */
     width: 100px;
     height: 100px;
     display: block;
     padding: 1rem;
-
-    /* background: var(); */
-
 }
 
 .exp-company {
-    /* border: 2px solid black; */
     font-weight: var(--font-bold);
     font-size: var(--title-font-size);
     padding: 0 1rem;
