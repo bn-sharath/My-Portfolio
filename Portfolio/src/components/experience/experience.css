@@ -1,39 +1,39 @@
-.q-container {
+.e-container {
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
     padding: 0 1rem;
 
-    text-align: center;
+    text-align: justify;
 }
 
-.edu-container {
+.exp-container {
     place-items: center;
 }
 
-.edu-container div {
+.exp-container div {
     padding: 0.5rem 1rem;
 }
 
-.q-title {
+.e-title {
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
-    gap: 1rem;
-    width: fit-content;
     /* border: 2px solid black; */
+    gap: 1rem;
+    width: max-content;
 }
 
-.q-title>span {
+.e-title>span {
 
-    border-radius: 5px;
+    border-radius: 50%;
     background-color: transparent;
     box-shadow: 4px 4px 16px 0px rgba(147, 147, 147, 0.778);
 }
 
-.q-title img {
+.e-title img {
     /* border: 2px solid black; */
-    width: 200px;
+    width: 100px;
     height: 100px;
     display: block;
     padding: 1rem;
@@ -42,36 +42,34 @@
 
 }
 
-.edu-college {
+.exp-company {
     /* border: 2px solid black; */
     font-weight: var(--font-bold);
     font-size: var(--title-font-size);
     padding: 0 1rem;
-    white-space: wrap;
-    /* text-align: center; */
 }
 
-.edu-degree {
+.exp-job {
     font-size: var(--subtitle-font-size);
     font-weight: var(--font-medium);
 }
 
-.edu-year {
+.exp-from {
     font-style: italic;
 }
 
+.exp-jd {
+    text-align: left;
+}
 
-
+.exp-jd>li {
+    padding: 0.5rem;
+    font-size: var(--small-font-size);
+}
 
 /* Media query for responsive */
 @media screen and (max-width: 992px) {}
 
-@media screen and (max-width: 768px) {
-    .q-title img{
-        width: 100px;
-        height: 70px;
-
-    }
-}
+@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 350px) {}

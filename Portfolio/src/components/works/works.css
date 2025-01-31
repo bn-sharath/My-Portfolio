@@ -1,30 +1,62 @@
 .project-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* place-items: center; */
-    gap: 1rem;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+
+    place-items: center;
+
 }
+
+.project-container > div{
+    padding: 3rem 2rem;
+}
+
 
 .project-title {
-    font-weight: var(--font-medium);
-    font-size: var(--subtitle-font-size);
-
-    padding: 1rem;
-
+    text-decoration: underline;
+    font-weight: var(--font-bold);
+    font-size: var(--title-font-size);
+    
+    padding: 1rem 1.5rem;
+    
 }
+
+
 
 .project-sub-title {
     font-style: italic;
     display: grid;
     grid-template-columns: 1fr 6fr;
     align-items: center;
+    
     gap: 0.5rem;
-    font-size: var(--small-font-size);
+    font-size: var(--subtitle-font-size);
     text-align: justify;
+    
+    font-weight: var(--font-medium);
+    padding: 1rem 1.5rem;
+}
 
+.project-details{
+display: flex;
+align-items: center;
+column-gap: 2rem;
 
 }
 
+.img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    
+}
+.project-box{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-left: 2px dashed black;
+}
 .project-sub-title::before {
     content: "";
     width: 100%;
@@ -34,33 +66,71 @@
 
 .project-description,
 .project-usertech,
-.project-githup{
-    padding: 1rem;
+.project-githup {
+    padding: 1rem 1.5rem;
     font-size: var(--normal-font-size);
+    text-align: justify;
+
 }
 
-.project-usertech > span{
-    font-weight: var(--font-medium);
+.project-usertech>span {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: var(--botton-color-dark-hover);
+    color: white;
+    border: 1px solid black;
+    font-size: var(--small-font-size);
 }
 
-.project-githup{
+.project-usertech {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+
+
+.project-githup {
     display: flex;
     align-items: center;
     justify-content: safe;
     column-gap: 0.5rem;
 }
-.project-githup > span{
+
+.project-githup>span {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 0.3rem;
 }
+
 /* Media query for responsive */
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+    .project-details{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-box {
+        width: 100%;
+        /* padding: 1rem 3rem; */
+        /* margin: 1rem; */
+    }
+}
 
 @media screen and (max-width: 768px) {
-    .project-container{
-        grid-template-columns: 1fr;
+.project-usertech{
+    gap: 0.5rem;
+    
+}
+
+    .img-box {
+        width: 100%;
+        /* padding: 0.5rem 2rem; */
+
     }
 }
 

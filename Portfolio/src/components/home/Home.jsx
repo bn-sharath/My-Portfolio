@@ -7,16 +7,25 @@ export default function Home() {
     <>
       <section id="home">
         <div className="title-conatiner">
-          <div className="title">Hello! 👋, I'm Sharath BN</div>
-          {/* <div className="subtitle">Software developer</div> */}
+          <div className="title">
+            <span>
+              <span className="hi">👋</span>
+              <span> Hello!, </span>
+              <span> I'm Sharath BN </span>
+            </span>
+          </div>
+
+          <div className="subtitle">
+            I am passionate and dedicated Software developer
+          </div>
         </div>
         <div className="home-container">
           <div className="home-img-container">
             <div className="home-img"> </div>
           </div>
           <Content />
-          
-            <Social />
+
+          <Social />
         </div>
       </section>
     </>

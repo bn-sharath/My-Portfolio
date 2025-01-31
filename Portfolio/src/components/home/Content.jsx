@@ -7,16 +7,18 @@ export default function Content() {
   return (
     <>
       <div className="content-container">
-        <div className="subtitle">
-          I am passionate and dedicated Software developer
-        </div>
-
         <div className="description">
-          <p>
+          <p >
             over 2 years of extensive experience in designing, coding, and
-            implementing scalable applications using React JS and Node JS.
+            implementing scalable applications using
+            <span className="bold"> React JS </span>
+            and
+            <span className="bold"> Node JS. </span>
             Proficient in various programming languages and frameworks,
-            including React, Node, Python, JavaScript, and Java.
+            including
+            <span className="bold"> React, Node, Python, JavaScript </span>
+            and
+            <span className="bold"> Java. </span>
           </p>
           <p>
             What sets me apart is my commitment to continuous learning and
