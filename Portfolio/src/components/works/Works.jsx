@@ -16,7 +16,7 @@ export default function Works() {
                 </div>
                 <div className="project-details scroll">
                   <div className="img-box scroll">
-                    <img src={project.img} alt="" />
+                    <img src={project.img} alt=""  />
                   </div>
 
                   <div className="project-box">

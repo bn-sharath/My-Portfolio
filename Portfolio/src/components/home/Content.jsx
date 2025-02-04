@@ -1,6 +1,7 @@
 import "./content.css";
 import resume from "../../assets/Sharath.pdf";
-import info from "./info";
+// import info from "./info";
+import Social from "./Social.jsx";
 
 export default function Content() {
   return (
@@ -32,7 +33,7 @@ export default function Content() {
         </div>
         <div className="download-container">
           <a href={resume} download="">
-            <button className="button download-btm">
+            <button className="button download-btm border-spin">
               <span>Resume</span>
               <box-icon
                 type="solid"
@@ -42,6 +43,7 @@ export default function Content() {
               ></box-icon>
             </button>
           </a>
+          <Social />
         </div>
       </div>
     </>

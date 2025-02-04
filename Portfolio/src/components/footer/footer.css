@@ -17,8 +17,11 @@
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
+    transition: all 0.4s;
 }
-
+.icon-container > a:hover{
+    scale: 1.1;
+    }
 .nav-container {
     display: flex;
     align-items: center;
@@ -31,10 +34,13 @@
     text-decoration: none;
     color: black;
     padding: 0.3rem;
+    transition: all 0.3s;
 }
 
 .nav-container>a:hover {
-    color: aliceblue;
+    scale: 1.1;
+    text-decoration: underline;
+
 }
 
 .copyright {

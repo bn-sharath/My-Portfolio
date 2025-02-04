@@ -14,20 +14,31 @@
     font-weight: var(--font-bold);
     font-size: var(--title-font-size);
     padding: 1rem 1.5rem;
+    text-align: center;
 }
 
 .project-sub-title {
     font-style: italic;
-    display: grid;
-    grid-template-columns: 1fr 6fr;
+    display: flex;
     align-items: center;
+    justify-items: center;
     gap: 0.5rem;
     font-size: var(--subtitle-font-size);
-    text-align: justify;
+    text-align: end;
     font-weight: var(--font-medium);
     padding: 1rem 1.5rem;
+    width: 100%;
+    /* white-space: nowrap; */
+    margin-bottom: 1rem;
 }
 
+.project-sub-title::before {
+    content: "";
+    width: 40%;
+    height: 2px;
+
+    background-color: rgba(89, 89, 89, 0.726);
+}
 .project-details {
     display: flex;
     align-items: center;
@@ -47,12 +58,6 @@
     grid-template-columns: 1fr;
 }
 
-.project-sub-title::before {
-    content: "";
-    width: 100%;
-    height: 2px;
-    background-color: rgba(89, 89, 89, 0.726);
-}
 
 .project-description,
 .project-usertech,

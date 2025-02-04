@@ -1,4 +1,3 @@
-import Social from "./Social.jsx";
 import Content from "./Content.jsx";
 import "./home.css";
 
@@ -20,12 +19,11 @@ export default function Home() {
           </div>
         </div>
         <div className="home-container">
-          <div className="home-img-container">
+          <div className="home-img-container ">
             <div className="home-img"> </div>
           </div>
           <Content />
 
-          <Social />
         </div>
       </section>
     </>

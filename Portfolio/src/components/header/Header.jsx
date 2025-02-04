@@ -35,6 +35,12 @@ export default function Header() {
                 </a>
               </li>
               <li className="menu">
+                <a href="#experience">
+                  <div className="menu-title">Experience</div>
+                  <box-icon name="briefcase"></box-icon>
+                </a>
+              </li>
+              <li className="menu">
                 <a href="#works">
                   <div className="menu-title">Works</div>
                   <box-icon name="layout"></box-icon>
@@ -44,13 +50,6 @@ export default function Header() {
                 <a href="#skills">
                   <div className="menu-title">Skills</div>
                   <box-icon name="code-alt"></box-icon>
-                </a>
-              </li>
-              <li className="menu">
-                <a href="#experience">
-                  <div className="menu-title">Experience</div>
-                  <box-icon name="briefcase"></box-icon>
-                  {/* <box-icon name="user-circle"></box-icon> */}
                 </a>
               </li>
               <li className="menu">

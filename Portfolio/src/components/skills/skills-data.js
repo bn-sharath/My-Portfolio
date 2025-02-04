@@ -18,12 +18,12 @@ import mongoDB from "../../assets/mongodb.svg";
 
 export const skills = {
   frontend: [
-    { name: "HTML", icon: html },
-    { name: "CSS", icon: css },
-    { name: "JavaScript", icon: js },
     { name: "React Js", icon: react },
     { name: "Next Js", icon: next },
     { name: "Responsive design", icon: responsive },
+    { name: "HTML", icon: html },
+    { name: "CSS", icon: css },
+    { name: "JavaScript", icon: js },
   ],
   backend: [
     { name: "Node Js", icon: node },

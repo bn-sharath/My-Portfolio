@@ -1,6 +1,6 @@
 .content-container {
     opacity: 0;
-    animation: right-to-left 1.5s 6s linear forwards;
+    animation: right-to-left 1.5s 2s linear forwards;
 }
 
 .download-btm {
@@ -9,13 +9,14 @@
     justify-content: center;
     column-gap: 1rem;
     opacity: 0;
-    animation: roll-right 1.5s linear 10s 1 forwards;
+    animation: from-top 1.5s linear 3s 1 forwards;
+
 }
 
 .download-container {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
 }
 
 .bold {
@@ -34,10 +35,13 @@
     font-size: var(--normal-font-size);
     margin-top: 2rem;
     margin-bottom: 2rem;
+    text-align: justify;
 }
 
-@media screen and (max-width: 550px) {
-    .description {
-        text-align: justify;
-    }
+@media screen and (max-width: 768px)  {
+  .download-container
+  {
+    flex-direction: column;
+    justify-content: center;
+  }
 }

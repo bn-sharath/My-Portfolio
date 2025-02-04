@@ -5,6 +5,16 @@
 
 }
 
+.contact-box{
+    color: black;
+}
+
+.contact-box:hover{
+    text-decoration: underline;
+    scale: 1.1;
+}
+
+
 .contact-box {
     display: grid;
     grid-template-columns: 1fr;
@@ -15,10 +25,6 @@
     transition: all 0.6s;
     background-color: transparent;
     }
-
-.contact-box:hover {
-    background-color: white;  
-}
 
 
 

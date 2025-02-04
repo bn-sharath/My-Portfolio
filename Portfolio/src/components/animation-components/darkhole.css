@@ -2,14 +2,9 @@
     width: 100%;
     height: 100vh;
     position: fixed;
-    z-index: -1;
+    z-index: -100;
     opacity: 0.4;
-    background: url("../../assets/bg3.jpg");
+    background: url("../../assets/bg.jpg");
     background-size: 20%;
     display: flex;
-}
-
-.dark-hole .left,
-.dark-hole .right {
-    border: 5px solid white;
 }
