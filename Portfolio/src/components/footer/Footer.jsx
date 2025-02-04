@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer-container">
         <div className="footer-title">Sharath</div>
         <div className="icon-container">
-          <a href="https://github.com/bn-sharath" target="_blank">
+          <a href="https://github.com/bn-sharath/My-Portfolio" target="_blank">
             <box-icon type="logo" name="github"></box-icon>
           </a>
           <a href="https://www.linkedin.com/in/sharath-bn-290b82220" target="_blank">

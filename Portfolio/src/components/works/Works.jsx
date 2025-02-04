@@ -31,7 +31,7 @@ export default function Works() {
                     <div className="project-githup scroll">
                       <span>
                         <box-icon type="logo" name="github"></box-icon>
-                        GitHup:-
+                        GitHub:-
                       </span>
                       <a href={project.gitHup} alt="#">
                         Source Code

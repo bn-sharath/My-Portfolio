@@ -40,7 +40,7 @@
     position: relative;
     /* left: 10%; */
     /* border: 1px solid black; */
-    animation: move-title 5s linear 1s infinite;
+    /* animation: move-title 5s linear 1s infinite; */
 }
 
 .nav-menu>ul {

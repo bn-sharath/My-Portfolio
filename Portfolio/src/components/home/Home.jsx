@@ -9,8 +9,8 @@ export default function Home() {
           <div className="title">
             <span>
               <span className="hi">👋</span>
-              <span> Hello!, </span>
-              <span> I'm Sharath BN </span>
+              <span> Hello!,</span>
+              <span > I'm Sharath BN </span>
             </span>
           </div>
 
@@ -21,6 +21,7 @@ export default function Home() {
         <div className="home-container">
           <div className="home-img-container ">
             <div className="home-img"> </div>
+
           </div>
           <Content />
 
