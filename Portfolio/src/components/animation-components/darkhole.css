@@ -3,8 +3,9 @@
     height: 100vh;
     position: fixed;
     z-index: -100;
-    opacity: 0.4;
+    opacity: 0.3;
     background: url("../../assets/bg.jpg");
-    background-size: 20%;
+    background-size: 15%;
     display: flex;
+    background-position: top;
 }
