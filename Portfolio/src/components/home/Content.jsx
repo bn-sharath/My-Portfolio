@@ -1,5 +1,5 @@
 import "./content.css";
-import resume from "../../assets/Sharath.pdf";
+import resume from "../../assets/SHARATH.pdf";
 // import info from "./info";
 import Social from "./Social.jsx";
 
