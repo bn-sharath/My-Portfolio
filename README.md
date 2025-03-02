@@ -57,23 +57,17 @@ This project recognizes faces from CCTV cameras and compares them with the crimi
 
 ## Skills
 
-### Frontend
+### Frontend 
 
-- React JS
-- Next JS
-- Responsive Design
+- React JS 
 - HTML
 - CSS
-- JavaScript
+- Javascript 
 
 ### Backend
 
-- Node JS
-- Express JS
+- Spring Boot
 - Rest API
-- Python
-- Flask
-- Git
 
 ### Tools
 
