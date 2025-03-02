@@ -13,7 +13,7 @@ Welcome to my portfolio! Here you'll find a collection of my projects, showcasin
 
 ## About Me
 
-👋 Hello! I'm Sharath BN, a passionate and dedicated software developer with over 2 years of extensive experience in designing, coding, and implementing scalable applications using React JS and Node JS. Proficient in various programming languages and frameworks, including React, Node, Python, JavaScript, and Java.
+👋 Hello! I'm Sharath BN, a passionate and dedicated software developer with over 2 years of extensive experience in designing, coding, and implementing scalable applications using React JS and Java. Proficient in various programming languages and frameworks, including Java, Spring, React and JavaScript.
 
 What sets me apart is my commitment to continuous learning and growth. I'm always exploring new techniques and staying updated with industry trends to deliver the best results.
 
@@ -26,12 +26,14 @@ Feel free to browse through my portfolio and reach out if you'd like to collabor
 **Software Developer**  
 _2022 - Present_
 
-- Developed and maintained server-side applications using Node.js, ensuring high performance and responsiveness to frontend requests.
-- Designed and implemented RESTful APIs using Express.js, facilitating seamless data exchange between the server and client.
-- Created and maintained responsive web applications using React, enhancing user experience through dynamic and interactive UI components.
-- Implemented state management using Redux, ensuring smooth and efficient application performance.
-- Worked closely with the design team to translate UI/UX designs into high-quality, interactive code.
-- Conducted code reviews and provided constructive feedback to team members, fostering a collaborative and quality-focused development environment.
+- As a Software Developer at Wipro for 2+ years, I had the opportunity to work on challenging and rewarding project with hands-on experience in Java, Spring, React and RESTful API.
+- Designed and implemented RESTful APIs using Java and Spring Boot, which is scalable and
+facilitating seamless data exchange between the server and client
+- Created and maintained responsive web applications using React, enhancing user experience 
+through dynamic and interactive UI components.
+- Collaborated with cross-functional teams to identify and prioritize project requirements.
+- Conducted code reviews and provideonstructive feedback to team members, fostering a 
+collaborative and quality-focused development environment.
 
 ## Works
 
